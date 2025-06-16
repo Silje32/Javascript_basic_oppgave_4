@@ -36,5 +36,5 @@ for (let card of cards) {
   /* Create the h2 */
   const title = document.createElement("h2");
   title.textContent = cards.stage;
-  butterflyCard.append(title);
+  butterflyCard.prepend(title);
 }
