@@ -27,7 +27,7 @@ const container = document.createElement("div");
 container.classList.add("lifeCycleOfButterflyContainer");
 document.body.append("container");
 
-/* Create the loop */
+/* Create the for loop */
 for (let card of cards) {
   const butterflyCard = document.createElement("div");
   container.classList.add("butterflyCard");
@@ -36,5 +36,10 @@ for (let card of cards) {
   /* Create the h2 */
   const title = document.createElement("h2");
   title.textContent = cards.stage;
-  butterflyCard.prepend(title);
+  container.prepend(title);
+
+  /* Create the img */
+  const img = document.createElement("img");
+  img.setAttribute("src", "./images/eggs.jpg");
+  container.append(img);
 }
