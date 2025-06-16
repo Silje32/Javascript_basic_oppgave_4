@@ -30,11 +30,11 @@ document.body.append("container");
 /* Create the loop */
 for (let card of cards) {
   const butterflyCard = document.createElement("div");
-  card.classList.add("butterflyCard");
-  container.appendChild("butterflyCard");
+  container.classList.add("butterflyCard");
+  container.append("butterflyCard");
 
   /* Create the h2 */
   const stage = document.createElement("h2");
-  stage.textContent = `card.Stage`;
-  butterflyCard.appendChild("stage");
+  stage.textContent = card.Stage;
+  butterflyCard.append("stage");
 }
