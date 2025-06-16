@@ -6,6 +6,10 @@ h1 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.butterflyCard {
-  background-color: lightblue;
+.lifeCycleOfButterflyContainer {
+  border: 1px solid #black;
+  padding: 20px;
+  background-color: #lightblue;
+  width: 200px;
+  border-radius: 10px;
 }
