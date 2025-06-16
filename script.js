@@ -1,5 +1,5 @@
 /* Array with objects */
-const card = [
+const cards = [
     {
         Stage: "1",
         Img: "eggs.jpg",
@@ -26,6 +26,12 @@ const card = [
 const container = document.createElement("div");
 container.classList.add("lifeCycleOfAButterflyContainer");
 document.body.appendChild("container");
+
+/* Create the loop */
+for (let card of cards) {
+
+}
+
 
 
 
