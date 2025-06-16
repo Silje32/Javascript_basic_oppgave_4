@@ -22,3 +22,10 @@ const card = [
  }
 ];
 
+/* Create the container */
+const container = document.createElement("div");
+container.classList.add("lifeCycleOfAButterflyContainer");
+document.body.appendChild("container");
+
+
+
