@@ -29,8 +29,10 @@ document.body.appendChild("container");
 
 /* Create the loop */
 for (let card of cards) {
-
-}
+const butterflyCard = document.createElement("div");
+card.classList.add("butterflyCard");
+container.append(butterflyCard);  
+};
 
 
 
