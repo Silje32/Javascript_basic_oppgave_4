@@ -7,9 +7,9 @@ h1 {
   margin-bottom: 20px;
 }
 .lifeCycleOfButterflyContainer {
-  border: 1px solid #black;
+  border: 1px solid #ccc;
   padding: 20px;
-  background-color: #lightblue;
-  width: 200px;
+  background-color: pink;
+  max-width: 80%;
   border-radius: 10px;
 }

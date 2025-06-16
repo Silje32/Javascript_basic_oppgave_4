@@ -22,19 +22,19 @@ const cards = [
   },
 ];
 
-/* Create the container */
+/* Create the container for the stages */
 const container = document.createElement("div");
-container.classList.add("lifeCycleOfAButterflyContainer");
-document.body.appendChild("container");
+container.classList.add("lifeCycleOfButterflyContainer");
+document.body.append("container");
 
 /* Create the loop */
 for (let card of cards) {
   const butterflyCard = document.createElement("div");
   card.classList.add("butterflyCard");
-  container.append(butterflyCard);
+  container.appendChild("butterflyCard");
 
   /* Create the h2 */
   const stage = document.createElement("h2");
-  stage.textContent = "card.Stage";
-  butterflyCard.append(stage);
+  stage.textContent = `card.Stage`;
+  butterflyCard.appendChild("stage");
 }
