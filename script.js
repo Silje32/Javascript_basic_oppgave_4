@@ -35,11 +35,16 @@ for (let card of cards) {
 
   /* Create the h2 */
   const title = document.createElement("h2");
-  container.textContent = cards.stage;
+  container.textContent = `Stage: ${card.stage}`;
   container.appendChild(title);
 
   /* Create the img */
   const img = document.createElement("img");
   img.setAttribute("src", "./images/eggs.jpg");
   container.appendChild(img);
+
+  /* Create the facts */
+  const facts = document.createElement("p");
+  facts.textContent = `${card.facts}`;
+  container.appendChild(facts);
 }
