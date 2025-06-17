@@ -39,17 +39,17 @@ for (let card of cards) {
 
   /* Create the h2 */
   const title = document.createElement("h2");
-  container.textContent = `Stage: ${card.stage}`;
-  container.appendChild(title);
+  title.textContent = `Stage: ${card.stage}`;
+  butterflyCard.appendChild(title);
 
   /* Create the img */
   const img = document.createElement("img");
   img.src = `${card.img}`;
   img.alt = `${card.img}`;
-  container.appendChild(img);
+  butterflyCard.appendChild(img);
 
   /* Create the facts */
   const facts = document.createElement("p");
   facts.textContent = `${card.facts}`;
-  container.appendChild(facts);
+  butterflyCard.appendChild(facts);
 }
