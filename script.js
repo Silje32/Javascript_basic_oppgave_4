@@ -23,23 +23,23 @@ const cards = [
 ];
 
 /* Create the container for the stages */
-const newContainer = document.createElement("div");
-newContainer.classList.add("lifeCycleOfButterflyContainer");
-document.body.append(newContainer);
+const container = document.createElement("div");
+container.classList.add("lifeCycleOfButterflyContainer");
+document.body.append(container);
 
 /* Create the for loop */
 for (let card of cards) {
   const butterflyCard = document.createElement("div");
-  newContainer.classList.add("butterflyCard");
-  butterflyCard.append(butterflyCard);
+  container.classList.add("butterflyCard");
+  container.appendChild(butterflyCard);
 
   /* Create the h2 */
   const title = document.createElement("h2");
-  newContainer.textContent = cards.stage;
-  butterflyCard.prepend(title);
+  container.textContent = cards.stage;
+  butterflyCard.appendChild(title);
 
   /* Create the img */
   const img = document.createElement("img");
   img.setAttribute("src", "./images/eggs.jpg");
-  butterflyCard.append(img);
+  butterflyCard.appendChild(img);
 }
