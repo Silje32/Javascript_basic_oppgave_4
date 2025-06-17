@@ -1,3 +1,4 @@
+/* butterflyCard */
 div {
   width: 50%;
   height: 500px;
@@ -17,7 +18,7 @@ h1 {
   margin-bottom: 20px;
 }
 h2 {
-  color: darkslategray;
+  color: red;
   font-size: 18px;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -33,4 +34,10 @@ h2 {
 }
 img {
   max-width: 50%;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  font-family: Arial, sans-serif;
 }
