@@ -48,9 +48,6 @@ for (let card of cards) {
   img.alt = `${card.img}`;
   container.appendChild(img);
 
-  // img.setAttribute("src", "./images/eggs.jpg");
-  // container.appendChild(img);
-
   /* Create the facts */
   const facts = document.createElement("p");
   facts.textContent = `${card.facts}`;
