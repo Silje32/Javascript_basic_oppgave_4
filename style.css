@@ -1,16 +1,28 @@
+/* Color Palett
+Orange: #FF6D05
+Pink: #D99A9A
+Beige: #242424
+*/
+
+:root {
+  --orange: #ff6d05;
+  --pink: #d99a9a;
+  --brown: #242424;
+  --beige: #f6f6f1;
+}
 /* butterflyCard */
 div {
-  width: 50%;
-  height: 500px;
+  max-width: 100%;
+  height: 600px;
   border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
-  background-color: lightblue;
+  background-color: var(--beige);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 h1 {
-  color: peachpuff;
+  color: var(--brown);
   font-size: 20px;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -18,26 +30,32 @@ h1 {
   margin-bottom: 20px;
 }
 h2 {
-  color: red;
-  font-size: 18px;
+  color: var(--pink);
+  font-size: 20px;
   text-align: center;
   font-family: Arial, sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-#lifeCycleOfButterflyContainer {
+.lifeCycleOfButterflyContainer {
   border: 1px solid #ccc;
   padding: 20px;
-  background-color: pink;
-  max-width: 80%;
+  background-color: var(--orange);
+  max-width: 100%;
+  height: 2600px;
   border-radius: 10px;
 }
 img {
   max-width: 50%;
+  margin-left: 310px;
+  border-radius: 10px;
 }
 p {
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  width: 700px;
+  color: var(--brown);
   font-family: Arial, sans-serif;
+  text-align: left;
+  margin-left: 310px;
 }

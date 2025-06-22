@@ -8,7 +8,7 @@ const cards = [
   },
   {
     stage: 2,
-    img: "./images/caterpillar.jpg",
+    img: "./images/larva.jpg",
     facts:
       "The egg haches into a larva, commonly known as a caterpillar. The caterpillar need to eat a lot of foods to grow. They start to eat the plant they hached on. They grow so big from eating that they shed their skin four times before fully developing and moving into the third stage.",
   },
@@ -16,7 +16,7 @@ const cards = [
     stage: 3,
     img: "./images/chrysalis.jpg",
     facts:
-      "The caterpillar is fully grown and forms a cocoon, also called a chrysalis. Inside the chrysalis, the caterpillar hibernates and transform into a butterfly",
+      "The caterpillar is fully grown and forms a cocoon, also called a chrysalis. Inside the chrysalis, the caterpillar hibernates and transform into a butterfly.",
   },
   {
     stage: 4,
@@ -39,7 +39,7 @@ for (let card of cards) {
 
   /* Create the h2 */
   const title = document.createElement("h2");
-  title.textContent = `Stage: ${card.stage}`;
+  title.textContent = `STAGE: ${card.stage}`;
   butterflyCard.appendChild(title);
 
   /* Create the img */
